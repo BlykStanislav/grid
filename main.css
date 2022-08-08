@@ -1,0 +1,217 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+/****************** section-1 *****************/
+
+.architectural {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    font-size: 36px;
+}
+
+.grid__block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.grid__item1 {
+    background: url(/img/img-block1/image-1.jpg);
+    width: 370px;
+    height: 370px;
+    border-radius: 20px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.grid__item2 {
+    background: url(/img/img-block1/img2.jpg);
+    border-radius: 20px;
+    grid-column: 2/span 2;
+    grid-row: 1;
+}
+
+.grid__item3 {
+    background: url(/img/img-block1/img3.jpg);
+    border-radius: 20px;
+    grid-column: 1/span 2;
+    grid-row: 2;
+}
+
+.grid__item4 {
+    background: url(/img/img-block1/img4.jpg);
+    border-radius: 20px;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.grid__item5 {
+    background: url(/img/img-block1/img5.jpg);
+    border-radius: 20px;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.grid__item6 {
+    background: url(/img/img-block1/img6.jpg);
+    border-radius: 20px;
+    grid-column: 2/span 2;
+    grid-row: 3;
+}
+
+/********************* section-2 *******************/
+
+
+.life {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    font-size: 36px;
+}
+
+.grid__blok-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.grid--item1{
+    background: url(/img/img-block2/img1.jpg);
+    width: 370px;
+    height: 370px;
+    border-radius: 20px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.grid--item2{
+    background:url(/img/img-block2/img2.jpg);
+    border-radius: 20px;
+    grid-column: 2/span 2;
+    grid-row: 1;
+}
+
+.grid--item3{
+    background: url(/img/img-block2/img3.jpg);
+    border-radius: 20px;
+    grid-column: 1/span 2;
+    grid-row: 2/span 2;
+}
+
+.grid--item4{
+    background: url(/img/img-block2/img4.jpg);
+    border-radius: 20px;
+    grid-column: 3/span 2;
+    grid-row: 2/span 2;
+}
+
+.grid--item5{
+    background: url(/img/img-block2/img5.jpg);
+    border-radius: 20px;
+    grid-column: 1/span 2;
+    grid-row: 4;
+}
+
+.grid--item6{
+    background: url(/img/img-block2/img6.jpg);
+    border-radius: 20px;
+    grid-column: 3;
+    grid-row: 4;
+}
+
+
+/************ section-3 ************/
+
+.fashion {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    font-size: 36px;
+}
+
+.grid__blok-three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.grid-item1{
+    background-image: url(/img/img-block3/img1.jpg);
+    border-radius: 20px;
+    width: 370px;
+    height: 370px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.grid-item2{
+    background-image: url(/img/img-block3/2.jpg);
+    border-radius: 20px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.grid-item3{
+    background-image: url(/img/img-block3/3.jpg);
+    border-radius: 20px;
+    grid-column: 2;
+    grid-row: 1/span 2;
+}
+
+.grid-item4{
+    background-image: url(/img/img-block3/4.jpg);
+    border-radius: 20px;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.grid-item5{
+    background-image: url(/img/img-block3/5.jpg);
+    border-radius: 20px;
+    grid-column: 1;
+    grid-row: 3/span 2;
+}
+
+.grid-item6{
+    background-image: url(/img/img-block3/6.jpg);
+    border-radius: 20px;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.grid-item7{
+    background-image: url(/img/img-block3/7.jpg);
+    border-radius: 20px;
+    grid-column: 3;
+    grid-row: 2/span 2;
+}
+
+.grid-item8{
+    background-image: url(/img/img-block3/8.jpg);
+    border-radius: 20px;
+    grid-column: 2/span 2;
+    grid-row: 4;
+}
+
+.grid-item9{
+    background-image: url(/img/img-block3/9.jpg);
+    border-radius: 20px;
+    grid-column: 1/span 2;
+    grid-row: 5;
+}
+
+.grid-item10{
+    background-image: url(/img/img-block3/10.jpg);
+    border-radius: 20px;
+    grid-column: 3;
+    grid-row: 5;
+}
+
+
